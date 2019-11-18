@@ -24,13 +24,35 @@ After each episode, we add up the rewards that each agent received (without disc
 
 I decided to solve this task with one single agent instance that plays both roles simultaneously. Since I provide the GPU time for myself I decided to run a longer training with a more slim model.
 
-You cen find a report about my solution in details in the `Report.html` file.
+You cen find a report about my solution in details in the `Report.html` file. Some additional information is available in the file `Report.md` if the output of the jupyter-notebook aint clear enough for you.
 
 If you want to run my solution on your machine or at any place in that cloudy world `Tennis.ipynb` is the file you're searching for.
 
 If you want to jump right into the origins of the project `Tennis_Original.ipynb` is definitely your best friend now.
 
-### 3.1. Requirements
+### 3.1. How to install
+
+To use this code you need a Python environmnet, some additional Python modules and some binearies of the Unity Environment. The concrete binaries depend on your operating system or on the cloud which you're using.
+
+#### 3.1.1. Python Environment
+
+You can get simple **Python** with `pip` from [here](https://www.python.org/downloads/).
+
+Or you can get **Anaconda**, which is a more complex Python environment from [here](https://www.anaconda.com/distribution/).
+
+If you aren't afraid of paying for Python environmnet or you're familiar with JetBrains stuff **PyCharm** is your solution. You can get it from [here](https://www.jetbrains.com/pycharm/).
+
+There are many other solutions to work with Python, run and edit Python stuff. Even clouds of **Amazon**, of **Google** and of other providers offer that kind of solutions for free or for some money as well.
+
+If none of tham are familiar for you, I consider to visit other resource which are more convinient for your actual experience and come back later to enjoy this project too.
+
+#### 3.1.2. Additional Python modules
+
+You can simply install additional Python modules from `requirements.txt` with the command `pip install -r requirements.txt`.
+
+However if you want to have a more powerful solution I recommend you to install **PyTorch** before anything else. It'll install most of the requiremnets by the way. You can select the most convinient PyTorch version from [here](https://pytorch.org/). You can select parameters in the *Quick Start Locally* section. Please take a look at the CUDA section since it can fasten your performance very well if you have a compatible GPU in your computer.
+
+#### 3.1.3. Binaries for Unity Environmnet
 
 Download the environment from one of the links below.  You need only select the environment that matches your operating system:
 
@@ -43,9 +65,9 @@ Download the environment from one of the links below.  You need only select the 
 
 (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
-### 3.2. Try the solution
+### 3.2. Try the solution - run the code
 
-If you want to test my solution you can run anything but part `3.5.`.
+If you want to test my solution you can run anything but part `3.5.` in the file `Tennis.ipynb`.
 
 ### 3.3. Play around
 
